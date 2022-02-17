@@ -72,6 +72,7 @@ left: 0;
     height: 2rem;
     background-color: white;
     z-index: 4;
+    line-height: 2rem;
 }
 
 .row{
@@ -85,4 +86,21 @@ left: 0;
 
 .window:hover .hover_img{
     visibility: hidden;
+}
+
+.new_price{
+    color: var(--price_color);
+}
+
+.old_price{
+    text-decoration: line-through;
+   
+}
+
+.brand{
+    font-size: 0.7rem;
+}
+
+.product_name{
+    font-weight: 600;
 }

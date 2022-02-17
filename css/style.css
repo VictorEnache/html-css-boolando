@@ -1,5 +1,77 @@
 :root{
     --discount_label_color:#EB0037;
-    --sustainability_color:#00875A;
+    --sustainability_label_color:#00875A;
     --price_color:#FF0000;
+    --background_color:white;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.product{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.window{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    margin: 0.2rem;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.hover_img{
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.labels{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+}
+
+.label{
+    padding: 0.2rem;
+    color: white;
+}
+
+.discount{
+    background-color: var(--discount_label_color);
+}
+
+.sustainability{
+    background-color: var(--sustainability_label_color);
+}
+
+.info{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: left;
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+}
+
+.row{
+    text-align: center;
+    margin-bottom: 4rem;
 }

@@ -2,7 +2,6 @@
     --discount_label_color:#EB0037;
     --sustainability_label_color:#00875A;
     --price_color:#FF0000;
-    --background_color:white;
 }
 
 *{
@@ -95,6 +94,7 @@ left: 0;
 
 .new_price{
     color: var(--price_color);
+    
 }
 
 .old_price{
@@ -107,5 +107,9 @@ left: 0;
 }
 
 .product_name{
+    font-weight: 600;
+}
+
+.price{
     font-weight: 600;
 }

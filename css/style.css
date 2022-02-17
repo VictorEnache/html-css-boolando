@@ -40,11 +40,13 @@ left: 0;
     position: absolute;
     left: 0;
     bottom: 1rem;
+    z-index: 4;
 }
 
 .label{
     padding: 0.2rem;
     color: white;
+    
 }
 
 .discount{
@@ -69,9 +71,18 @@ left: 0;
     width: 2rem;
     height: 2rem;
     background-color: white;
+    z-index: 4;
 }
 
 .row{
     text-align: center;
     margin-bottom: 4rem;
+}
+
+.hover_img{
+    z-index: 3;
+}
+
+.window:hover .hover_img{
+    visibility: hidden;
 }
